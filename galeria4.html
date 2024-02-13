@@ -3,79 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <title>Galeria Zdjęć</title>
+    <style>
+        body {
+            background-color: rgb(35, 37, 33);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgb(97, 15, 129);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: rgb(46, 38, 45);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            background-color: #ff0;
+            color: #f90;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        img {
+            
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+        
+    </style>
 </head>
+<body>
 
-<div class="button-container">
-    <a href="index.html">
-        <button>WSTECZ</button>
-    </a>
-</div>
+    <header>
+        <h1>Galeria Zdjęć</h1>
+    </header>
 
-<div class="button-container1">
-    <a href="galeria.html">
-        <button>Galeria kotków</button>
-    </a> </div>
+    <nav>
+        <a href="index.html">Wstecz</a>
+        <a href="galeria.html">Galeria kotków</a>
+        <a href="galeria2.html">Galeria paznokci</a>
+        <a href="galeria3.html">Galeria widoków</a>
+        <a href="galeria4.html">Galeria kwiatów</a>
+    </nav>
 
-    <div class="button-container2">
-        <a href="galeria2.html">
-            <button>Galeria paznokci</button>
-        </a></div>
+    <section>
+        <img src="kwiat1.jpg">
+        <img src="kwiat2.jpg">
+        <img src="kwiat3.jpg">
+        <img src="kwiat4.jpg">
+        <img src="kwiat5.jpg">
+        <img src="kwiat6.jpg">
+    </section>
 
-        <div class="button-container3">
-            <a href="galeria3.html">
-                <button>Galeria kwiatków</button>
-            </a></div>
-
-
-
-    <ul>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok1.jpg' >
-                    
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok2.jpg' >
-                    
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok3.jpg' >
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok4.jpg' >
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok5.jpg' >
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <figure>
-                    <img src='widok6.jpg' >
-                </figure>
-            </a>
-        </li>
-    </ul>
 </body>
 </html>
