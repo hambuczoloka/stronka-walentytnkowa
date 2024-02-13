@@ -72,10 +72,7 @@ figcaption {
 
 
 /* Podstawowy styl dla przycisków */
-.button-container, .button-container1, .button-container2, .button-container3, .button-container4 {
-    text-align: center;
-    margin-top: 20px;
-}
+
 
 .button-container a {
     text-decoration: none;
@@ -170,6 +167,19 @@ button:active {
 }
 
   /* Reszta Twojego CSS bez zmian */
+
+  .button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-container, .button-container2, .button-container3, .button-container4 {
+    text-align: center;
+    margin-top: 20px;
+    margin: 0 10px; /* Dostosuj marginesy dla mniejszych ekranów */
+}
 
 .image-list {
     list-style: none;
